@@ -16,6 +16,18 @@
     scroll-behavior: smooth;
 }
 
+
+.border {
+
+    border: 2px solid red;
+}
+
+.button__gradient {
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
+            #5ce1e6 71.54%,
+            #33bbcf 100%);
+}
+
 .text-gradient {
     background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
             #def9fa 0.89%,

@@ -33,11 +33,12 @@ const Navbar = () => {
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                 {
                     navItems.map((el, index) => (
-                        <li key={el.id} className={`${index == navItems.length - 1 ? 'mr-0' : 'mr-10'} font-poppins font-normal cursor-pointer text-[16px] text-white`}>
+                        <li key={el.id} className={`mr-10 font-poppins font-normal cursor-pointer text-[16px] text-white hover:scale-110 transform transition duration-500 hover:text-sky-500`}>
                             <a href={`#${el.id}`}>{el.title}</a>
                         </li>
                     ))
                 }
+                <button className='button__gradient font-poppins font-bold text-white p-5 rounded-[20px] hover:scale-110 transform transition duration-500'>GET STARTED</button>
             </ul>
 
 
